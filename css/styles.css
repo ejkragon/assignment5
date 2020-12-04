@@ -4,13 +4,8 @@
 
 =======================================================*/
 
-.home-container {
-  border: 0;
-  box-sizing: border-box;
+* {
   font-size: 18pt;
-  margin: 0;
-  padding: 0;
-  background: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -80,9 +75,19 @@
 
 /*=====================================================
 
-  body
+  body styling
 
 =======================================================*/
+
+.home-container {
+  border: 0;
+  box-sizing: border-box;
+  font-size: 18pt;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
 
 h1,
 h2 {
@@ -144,7 +149,7 @@ h2 {
 
 /*=====================================================
 
-  ad
+  ad styling
 
 ======================================================*/
 
@@ -155,9 +160,64 @@ h2 {
   width: 500px;
 }
 
+/*========================================================
+
+  FAQ styling
+
+==========================================================*/
+
+details {
+  border: 1px solid black;
+  background: #f2f2f2;
+  padding: 15px 20px;
+}
+
+summary {
+  font-size: 19px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+summary:hover {
+  cursor: pointer;
+  color: #d8b5ff;
+  transition: .3s;
+}
+
+details p {
+  padding: 15px 25px 10px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:before {
+  content: "\f0fe";
+  font-family: 'Font Awesome 5 Free';
+  margin-right: 10px;
+  font-weight: normal;
+  color: #fda085;
+  transition: .3s;
+}
+
+summary:hover:before {
+  color: #bff098;
+  transition: .3s;
+}
+
+details[open] summary:before {
+  content: "\f146";
+}
+
+
+
+
+
+
   /*======================================================
 
-  contact us Page
+  contact us Page styling
 
   ========================================================*/
 
@@ -167,6 +227,9 @@ h2 {
   border: 0;
   font-family: sans-serif;
   background: white;
+  max-width: 900px;
+  text-align: left;
+  margin: 50px auto 100px;
 }
 
 .contact-form {
@@ -176,12 +239,6 @@ h2 {
   color: #f7ec13;
   font-family: sans-sans-serif;
   margin: 20px auto;
-}
-
-.container {
-  max-width: 900px;
-  text-align: left;
-  margin: 50px auto 100px;
 }
 
 h1 {
@@ -259,4 +316,56 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+/*==========================
+
+  testing pseudo elements
+
+===========================*/
+
+p:first-letter {
+  font-size: 200%;
+}
+
+p:first-line {
+  color: red;
+}
+
+
+
+/*==========================
+
+  footer styling
+
+===========================*/
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 40px 0;
+}
+
+footer a {
+    color: white;
+    font-size: 25px;
+    margin: 0 5px;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: #c5c2c2;
+    transition: .3s;
+}
+
+.website {
+    margin-bottom: 15px;
 }
