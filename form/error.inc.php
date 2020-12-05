@@ -117,7 +117,7 @@ footer a:hover {
 	<nav class="menu">
 		<ul>
 			<li class="menu-item"><a href="index.html">About Us</a></li>
-			<li class="menu-item"><a href="partners">Partners<i class="far fa-caret-square-down"></i></a>
+			<li class="menu-item"><a href="partners">Partners<i class="fas fa-angle-double-down"></i></a>
 				<ul class="sub-menu">
 					<li class="menu-item"><a href="home-study">Home Study</a></li>
 					<li class="menu-item"><a href="attorneys">Attorneys</a></li>

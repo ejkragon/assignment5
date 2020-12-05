@@ -140,7 +140,7 @@ h2 {
 
 ======================================================*/
 
-.top-row {
+.gallery {
   position: absolute;
   right: 0;
   top: 260px;
@@ -178,7 +178,7 @@ h2 {
 
 details {
   border: 1px solid black;
-  background: #f2f2f2;
+  background: #e6e7e8;
   padding: 15px 20px;
 }
 
@@ -190,7 +190,7 @@ summary {
 
 summary:hover {
   cursor: pointer;
-  color: #d8b5ff;
+  color: #3953a4;
   transition: .3s;
 }
 
@@ -207,12 +207,12 @@ summary:before {
   font-family: 'Font Awesome 5 Free';
   margin-right: 10px;
   font-weight: normal;
-  color: #fda085;
+  color: #ed2024;
   transition: .3s;
 }
 
 summary:hover:before {
-  color: #bff098;
+  color: #6abd45;
   transition: .3s;
 }
 
