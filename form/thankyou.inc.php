@@ -7,8 +7,10 @@
 =======================================================*/
 
 * {
-  font-size: 18pt;
-  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 /*=======================================================
@@ -114,7 +116,7 @@ footer a:hover {
 
 	<nav class="menu">
 		<ul>
-			<li class="menu-item"><a href="about">About Us</a></li>
+			<li class="menu-item"><a href="index.html">About Us</a></li>
 			<li class="menu-item"><a href="partners">Partners<i class="far fa-caret-square-down"></i></a>
 				<ul class="sub-menu">
 					<li class="menu-item"><a href="home-study">Home Study</a></li>
@@ -138,7 +140,7 @@ footer a:hover {
 
 
 <footer>
-	<p class="website">Website by: Efren Vasquez</p>
+	<p class="website">Website by: Emmanuel J. Agon Kresky</p>
 	<p> Follow me:</p>
 	<p>
 		<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
