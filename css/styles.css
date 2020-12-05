@@ -14,7 +14,7 @@
 
 body {
   background: #ffffff;
-  font-family: 'Open Sans', sans-sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /*=======================================================
 
@@ -100,6 +100,7 @@ body {
 
 h1,
 h2 {
+  font-family: 'Balsamiq Sans', cursive;
   color: #3953a4;
 }
 
@@ -182,7 +183,7 @@ details {
 }
 
 summary {
-  font-size: 19px;
+  font-size: 20px;
   font-weight: bold;
   transition: .3s;
 }
@@ -238,17 +239,17 @@ details[open] summary:before {
   margin: 20px auto;
 }
 
-h1 {
+h3 {
   text-align: center;
 }
 
-h2 {
+h4 {
   color: #ffffff;
   text-align: center;
 }
 
-h3,
-h4 {
+h5,
+h6 {
   color: #faa41a;
 }
 
