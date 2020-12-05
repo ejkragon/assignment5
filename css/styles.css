@@ -10,10 +10,12 @@
   font-size: 18pt;
   margin: 0;
   padding: 0;
-  background: #ffffff;
-  font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  background: #ffffff;
+  font-family: 'Open Sans', sans-sans-serif;
+}
 /*=======================================================
 
   nav bar / menu styling
@@ -88,11 +90,12 @@
   border: 0;
   box-sizing: border-box;
   font-size: 18pt;
-  margin: 0 auto;
+  margin: 50px auto 100px;
   max-width: 900px;
   padding: 20px;
   background: #ffffff;
   min-height: 100vh;
+  text-align: left;
 }
 
 h1,
@@ -227,23 +230,11 @@ details[open] summary:before {
 
   ========================================================*/
 
-.contact-container {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: sans-serif;
-  background: white;
-  max-width: 900px;
-  text-align: left;
-  margin: 50px auto 100px;
-}
-
 .contact-form {
   background: #3953a4;
   padding: 20px;
-  max-width: 500px;
+  max-width: 750px;
   color: #f7ec13;
-  font-family: sans-sans-serif;
   margin: 20px auto;
 }
 
@@ -263,8 +254,8 @@ h4 {
 
 .p2container {
   position: absolute;
-  margin-top: -233px;
-  margin-left: 275px;
+  margin-top: -357px;
+  margin-left: 442px;
 }
 
 .addresscontainer {
@@ -316,19 +307,6 @@ textarea {
   width: 185px;
   padding: 8px 0;
 }
-
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-
-
-
-
-
-
 
 
 /*==========================
