@@ -26,7 +26,7 @@
       <nav class="menu">
         <ul>
           <li class="menu-item"><a href="index.html">About Us</a></li>
-          <li class="menu-item"><a href="partners">Partners<i class="far fa-caret-square-down"></i></a>
+          <li class="menu-item"><a href="partners">Partners<i class="fas fa-angle-double-down"></i></a>
             <ul class="sub-menu">
               <li class="menu-item"><a href="home-study">Home Study</a></li>
               <li class="menu-item"><a href="attorneys">Attorneys</a></li>
@@ -43,13 +43,13 @@
     <main>
       <div class="container">
         <h1>Please Contact Us using the form below:</h1>
-        <form class="contact-form" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+        <form class="contact-form" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
 
           <h2>Parents Contact Information</h2>
           <div class="p1container">
             <h3>Parent #1</h3>
             <div class="p1-first-name input-section">
-              <label for="p1-first-name" class="label_input_wrap">Parent1 First Name:</label>
+              <label for="p1firstname" class="label_input_wrap">Parent1 First Name:</label>
               <input type="text" name="req_p1firstname" id="p1firstname" placeholder="Parent1 First Name" />
             </div>
 
@@ -67,11 +67,12 @@
               <label for="p1telephone" class="label_input_wrap">Parent1 Telephone:</label>
               <input type="tel" name="req_p1telephone" id="p1telephone" placeholder="Parent1 Telephone" />
             </div>
+          </div>
 
           <div class="p2container">
             <h3>Parent #2</h3>
             <div class="p2-first-name input-section p2">
-              <label for="p2-first-name" class="label_input_wrap">Parent2 First Name:</label>
+              <label for="p2firstname" class="label_input_wrap">Parent2 First Name:</label>
               <input type="text" name="p2firstname" id="p2firstname" placeholder="Parent2 First Name" />
             </div>
 
@@ -126,7 +127,7 @@
           </div>
 
           <div class="dropdown input-section">
-            <h4><label for="month" class="label_input_wrap">If you have a current Home Study, when does it expire?</h4></span></label></h4>
+            <h4><label for="month" class="label_input_wrap">If you have a current Home Study, when does it expire?</label></h4>
             <select name="month" id="month">
               <option value="January">January</option>
               <option value="February">February</option>
@@ -151,14 +152,14 @@
 
           <div class="checkbox input-section">
             <h4>I would like to be contacted by:</h4>
-            <input type="checkbox" name="partner" value="attorney" id="attorney" /><label for="Attorney">Attorneys</label>
-            <input type="checkbox" name="partner" value="consultant" id="consultant" /><label for="Consultant">Consultants</label>
-            <input type="checkbox" name="partner" value="agency" id="agency" /><label for="Agency">Agencies</label>
+            <input type="checkbox" name="partner" value="attorney" id="attorney" /><label for="attorney">Attorneys</label>
+            <input type="checkbox" name="partner" value="consultant" id="consultant" /><label for="consultant">Consultants</label>
+            <input type="checkbox" name="partner" value="agency" id="agency" /><label for="agency">Agencies</label>
           </div>
 
           <div class="comments input-section">
             <h4><label for="comments" class="label_input_wrap">Comments:</label></h4>
-            <textarea name="comments" id="comments" cols="48" rows="5" placeholder="Enter your comments here"/></textarea>
+            <textarea name="comments" id="comments" cols="48" rows="5" placeholder="Enter your comments here:"></textarea>
           </div>
 
           <div class="reset input-section">
